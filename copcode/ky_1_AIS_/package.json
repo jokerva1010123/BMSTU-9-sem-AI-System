@@ -1,0 +1,36 @@
+{
+  "name": "ais",
+  "version": "1.0.0",
+  "description": "Recommend system",
+  "main": "src/lab02.ts",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "lab02": "npx ts-node src/lab02.ts",
+    "lab02-table": "npx ts-node src/lab02-table.ts",
+    "lab03": "npx ts-node src/lab03.ts",
+    "lab05": "npx ts-node src/lab05.ts",
+    "rk1": "npx ts-node src/rk1.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wcdbmv/AIS.git"
+  },
+  "author": "Kerimov A. <kerimov.dev@yandex.ru>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wcdbmv/AIS/issues"
+  },
+  "homepage": "https://github.com/wcdbmv/AIS#readme",
+  "dependencies": {
+    "@types/readline-sync": "^1.4.4",
+    "@typescript-eslint/eslint-plugin": "^5.3.0",
+    "@typescript-eslint/parser": "^5.3.0",
+    "eslint": "^8.2.0",
+    "readline-sync": "^1.4.10",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.4.4"
+  }
+}

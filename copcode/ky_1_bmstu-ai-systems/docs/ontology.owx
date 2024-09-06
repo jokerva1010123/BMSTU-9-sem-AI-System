@@ -1,0 +1,906 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/kirill/ontologies/2024/ai/ontology.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/kirill/ontologies/2024/ai/ontology.owl">
+    <Prefix name="" IRI="http://www.semanticweb.org/kirill/ontologies/2024/ai/ontology.owl/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Adidas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Briony"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Canali"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Corneliani"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hugo_Boss"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Joggers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lacoste"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nike"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Puma"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Reebok"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Zara"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#black"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#blue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#blue_"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#brands"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#business_clothes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#casual_clothes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#categories"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#classic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#clothes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#color"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gray"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hoodies"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hoodies_"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#jackets"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#jeans"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#long_sleeve"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#longsleeves"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pink"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#red"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#scenarios"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#shirts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#short_sleeve"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#shorts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sports_hoodies"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sports_shorts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sports_t-shirts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sportswear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sweaters_and_sweatshirts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sweatpants"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sweatshirts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#t-shirts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#thais"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#trousers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#white"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Лайкнуть_одежду"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Показать_схожую_одежду"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Сравнить_пару_вещей"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#H&amp;M"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Levi&apos;s"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Добавить_одежду,_соответствующую_критериям"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Исключить_одежду,_соответствующую_критериям"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Показать_одежду,_соответствующую_критериям"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#gender"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#price"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#size"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Брюки_Briony_Черный_13800"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Джинсы_Zara_Голубой_6800"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Джоггеры_Puma_Черный_4900"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Рубашка_с_коротким_рукавом_Canali_Синий_2900"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Свитшот_Zara_Черный_1300"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Спортивная_толстовка_Adidas_Серый_6000"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Худи_Lacoste_Красный_2300"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Шорты_Levi&apos;s_Синий_2300"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Adidas"/>
+        <Class IRI="#brands"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Briony"/>
+        <Class IRI="#brands"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Canali"/>
+        <Class IRI="#brands"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Corneliani"/>
+        <Class IRI="#brands"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hugo_Boss"/>
+        <Class IRI="#brands"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Joggers"/>
+        <Class IRI="#sweatpants"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lacoste"/>
+        <Class IRI="#brands"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nike"/>
+        <Class IRI="#brands"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Puma"/>
+        <Class IRI="#brands"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Reebok"/>
+        <Class IRI="#brands"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zara"/>
+        <Class IRI="#brands"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#black"/>
+        <Class IRI="#color"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#blue"/>
+        <Class IRI="#color"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#blue_"/>
+        <Class IRI="#color"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#brands"/>
+        <Class IRI="#clothes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#business_clothes"/>
+        <Class IRI="#categories"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#casual_clothes"/>
+        <Class IRI="#categories"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#categories"/>
+        <Class IRI="#clothes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#classic"/>
+        <Class IRI="#sweatpants"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#color"/>
+        <Class IRI="#clothes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gray"/>
+        <Class IRI="#color"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hoodies"/>
+        <Class IRI="#sweaters_and_sweatshirts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hoodies_"/>
+        <Class IRI="#sweaters_and_sweatshirts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#jackets"/>
+        <Class IRI="#business_clothes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#jeans"/>
+        <Class IRI="#casual_clothes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#long_sleeve"/>
+        <Class IRI="#shirts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#longsleeves"/>
+        <Class IRI="#casual_clothes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pink"/>
+        <Class IRI="#color"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#red"/>
+        <Class IRI="#color"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#scenarios"/>
+        <Class IRI="#clothes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#shirts"/>
+        <Class IRI="#business_clothes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#short_sleeve"/>
+        <Class IRI="#shirts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#shorts"/>
+        <Class IRI="#casual_clothes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sports_hoodies"/>
+        <Class IRI="#sportswear"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sports_shorts"/>
+        <Class IRI="#sportswear"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sports_t-shirts"/>
+        <Class IRI="#sportswear"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sportswear"/>
+        <Class IRI="#categories"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sweaters_and_sweatshirts"/>
+        <Class IRI="#casual_clothes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sweatpants"/>
+        <Class IRI="#sportswear"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sweatshirts"/>
+        <Class IRI="#sweaters_and_sweatshirts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#t-shirts"/>
+        <Class IRI="#casual_clothes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#thais"/>
+        <Class IRI="#sweatpants"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#trousers"/>
+        <Class IRI="#business_clothes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#white"/>
+        <Class IRI="#color"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Лайкнуть_одежду"/>
+        <Class IRI="#scenarios"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Показать_схожую_одежду"/>
+        <Class IRI="#scenarios"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Сравнить_пару_вещей"/>
+        <Class IRI="#scenarios"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#H&amp;M"/>
+        <Class IRI="#brands"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Levi&apos;s"/>
+        <Class IRI="#brands"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Добавить_одежду,_соответствующую_критериям"/>
+        <Class IRI="#scenarios"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Исключить_одежду,_соответствующую_критериям"/>
+        <Class IRI="#scenarios"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Показать_одежду,_соответствующую_критериям"/>
+        <Class IRI="#scenarios"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Briony"/>
+        <NamedIndividual IRI="#Брюки_Briony_Черный_13800"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#black"/>
+        <NamedIndividual IRI="#Брюки_Briony_Черный_13800"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#trousers"/>
+        <NamedIndividual IRI="#Брюки_Briony_Черный_13800"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Zara"/>
+        <NamedIndividual IRI="#Джинсы_Zara_Голубой_6800"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#blue_"/>
+        <NamedIndividual IRI="#Джинсы_Zara_Голубой_6800"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#jeans"/>
+        <NamedIndividual IRI="#Джинсы_Zara_Голубой_6800"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Joggers"/>
+        <NamedIndividual IRI="#Джоггеры_Puma_Черный_4900"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Puma"/>
+        <NamedIndividual IRI="#Джоггеры_Puma_Черный_4900"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#black"/>
+        <NamedIndividual IRI="#Джоггеры_Puma_Черный_4900"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Canali"/>
+        <NamedIndividual IRI="#Рубашка_с_коротким_рукавом_Canali_Синий_2900"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#blue"/>
+        <NamedIndividual IRI="#Рубашка_с_коротким_рукавом_Canali_Синий_2900"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#short_sleeve"/>
+        <NamedIndividual IRI="#Рубашка_с_коротким_рукавом_Canali_Синий_2900"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Zara"/>
+        <NamedIndividual IRI="#Свитшот_Zara_Черный_1300"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#black"/>
+        <NamedIndividual IRI="#Свитшот_Zara_Черный_1300"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sweatshirts"/>
+        <NamedIndividual IRI="#Свитшот_Zara_Черный_1300"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Adidas"/>
+        <NamedIndividual IRI="#Спортивная_толстовка_Adidas_Серый_6000"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#gray"/>
+        <NamedIndividual IRI="#Спортивная_толстовка_Adidas_Серый_6000"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sports_hoodies"/>
+        <NamedIndividual IRI="#Спортивная_толстовка_Adidas_Серый_6000"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Lacoste"/>
+        <NamedIndividual IRI="#Худи_Lacoste_Красный_2300"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#hoodies"/>
+        <NamedIndividual IRI="#Худи_Lacoste_Красный_2300"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#red"/>
+        <NamedIndividual IRI="#Худи_Lacoste_Красный_2300"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#blue"/>
+        <NamedIndividual IRI="#Шорты_Levi&apos;s_Синий_2300"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#shorts"/>
+        <NamedIndividual IRI="#Шорты_Levi&apos;s_Синий_2300"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Levi&apos;s"/>
+        <NamedIndividual IRI="#Шорты_Levi&apos;s_Синий_2300"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gender"/>
+        <NamedIndividual IRI="#Брюки_Briony_Черный_13800"/>
+        <Literal>ж</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#price"/>
+        <NamedIndividual IRI="#Брюки_Briony_Черный_13800"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">13800</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#size"/>
+        <NamedIndividual IRI="#Брюки_Briony_Черный_13800"/>
+        <Literal>M</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gender"/>
+        <NamedIndividual IRI="#Джинсы_Zara_Голубой_6800"/>
+        <Literal>м</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#price"/>
+        <NamedIndividual IRI="#Джинсы_Zara_Голубой_6800"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">6800</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#size"/>
+        <NamedIndividual IRI="#Джинсы_Zara_Голубой_6800"/>
+        <Literal>M</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gender"/>
+        <NamedIndividual IRI="#Джоггеры_Puma_Черный_4900"/>
+        <Literal>м</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#price"/>
+        <NamedIndividual IRI="#Джоггеры_Puma_Черный_4900"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">4900</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#size"/>
+        <NamedIndividual IRI="#Джоггеры_Puma_Черный_4900"/>
+        <Literal>L</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gender"/>
+        <NamedIndividual IRI="#Рубашка_с_коротким_рукавом_Canali_Синий_2900"/>
+        <Literal>м</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#price"/>
+        <NamedIndividual IRI="#Рубашка_с_коротким_рукавом_Canali_Синий_2900"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2900</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#size"/>
+        <NamedIndividual IRI="#Рубашка_с_коротким_рукавом_Canali_Синий_2900"/>
+        <Literal>L</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gender"/>
+        <NamedIndividual IRI="#Свитшот_Zara_Черный_1300"/>
+        <Literal>ж</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#price"/>
+        <NamedIndividual IRI="#Свитшот_Zara_Черный_1300"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1300</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#size"/>
+        <NamedIndividual IRI="#Свитшот_Zara_Черный_1300"/>
+        <Literal>XL</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gender"/>
+        <NamedIndividual IRI="#Спортивная_толстовка_Adidas_Серый_6000"/>
+        <Literal>м</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#price"/>
+        <NamedIndividual IRI="#Спортивная_толстовка_Adidas_Серый_6000"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">6000</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#size"/>
+        <NamedIndividual IRI="#Спортивная_толстовка_Adidas_Серый_6000"/>
+        <Literal>M</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gender"/>
+        <NamedIndividual IRI="#Худи_Lacoste_Красный_2300"/>
+        <Literal>м</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#price"/>
+        <NamedIndividual IRI="#Худи_Lacoste_Красный_2300"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2300</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#size"/>
+        <NamedIndividual IRI="#Худи_Lacoste_Красный_2300"/>
+        <Literal>XXL</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gender"/>
+        <NamedIndividual IRI="#Шорты_Levi&apos;s_Синий_2300"/>
+        <Literal>м</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#price"/>
+        <NamedIndividual IRI="#Шорты_Levi&apos;s_Синий_2300"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">2300</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#size"/>
+        <NamedIndividual IRI="#Шорты_Levi&apos;s_Синий_2300"/>
+        <Literal>S</Literal>
+    </DataPropertyAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Hugo_Boss</IRI>
+        <Literal>Hugo Boss</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Joggers</IRI>
+        <Literal>Джоггеры</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#black</IRI>
+        <Literal>Черный</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#blue</IRI>
+        <Literal>Синий</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#blue_</IRI>
+        <Literal>Голубой</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#brands</IRI>
+        <Literal>Бренды</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#business_clothes</IRI>
+        <Literal>Деловая одежда</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#casual_clothes</IRI>
+        <Literal>Повседневная одежда</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#categories</IRI>
+        <Literal>Категории</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#classic</IRI>
+        <Literal>Классические</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#clothes</IRI>
+        <Literal>Одежда</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#color</IRI>
+        <Literal>Цвет</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#gender</IRI>
+        <Literal>Пол</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#gray</IRI>
+        <Literal>Серый</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hoodies</IRI>
+        <Literal>Худи</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#hoodies_</IRI>
+        <Literal>Толстовки</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#jackets</IRI>
+        <Literal>Пиджаки</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#jeans</IRI>
+        <Literal>Джинсы</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#long_sleeve</IRI>
+        <Literal>Длинный рукав</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#longsleeves</IRI>
+        <Literal>Лонгсливы</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#pink</IRI>
+        <Literal>Розовый</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#price</IRI>
+        <Literal>Цена</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#red</IRI>
+        <Literal>Красный</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#scenarios</IRI>
+        <Literal>Сценарии</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#shirts</IRI>
+        <Literal>Рубашки</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#short_sleeve</IRI>
+        <Literal>Короткий рукав</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#shorts</IRI>
+        <Literal>Шорты</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#size</IRI>
+        <Literal>Размер</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#sports_hoodies</IRI>
+        <Literal>Спортивные толстовки</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#sports_shorts</IRI>
+        <Literal>Спортивные шорты</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#sports_t-shirts</IRI>
+        <Literal>Спортивные футболки</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#sportswear</IRI>
+        <Literal>Спортивная одежда</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#sweaters_and_sweatshirts</IRI>
+        <Literal>Свитеры и кофты</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#sweatpants</IRI>
+        <Literal>Спортивные брюки</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#sweatshirts</IRI>
+        <Literal>Свитшоты</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#t-shirts</IRI>
+        <Literal>Футболки</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#thais</IRI>
+        <Literal>Тайцы</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#trousers</IRI>
+        <Literal>Брюки</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#white</IRI>
+        <Literal>Белый</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Брюки_Briony_Черный_13800</IRI>
+        <Literal>Брюки Briony Черный 13800</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Джинсы_Zara_Голубой_6800</IRI>
+        <Literal>Джинсы Zara Голубой 6800</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Джоггеры_Puma_Черный_4900</IRI>
+        <Literal>Джоггеры Puma Черный 4900</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Лайкнуть_одежду</IRI>
+        <Literal>Лайкнуть одежду</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Показать_схожую_одежду</IRI>
+        <Literal>Показать схожую одежду</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Рубашка_с_коротким_рукавом_Canali_Синий_2900</IRI>
+        <Literal>Рубашка с коротким рукавом Canali Синий 2900</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Свитшот_Zara_Черный_1300</IRI>
+        <Literal>Свитшот Zara Черный 1300</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Спортивная_толстовка_Adidas_Серый_6000</IRI>
+        <Literal>Спортивная толстовка Adidas Серый 6000</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Сравнить_пару_вещей</IRI>
+        <Literal>Сравнить пару вещей</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Худи_Lacoste_Красный_2300</IRI>
+        <Literal>Худи Lacoste Красный 2300</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Levi&apos;s</IRI>
+        <Literal>Levi&apos;s</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Добавить_одежду,_соответствующую_критериям</IRI>
+        <Literal>Добавить одежду, соответствующую критериям</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Исключить_одежду,_соответствующую_критериям</IRI>
+        <Literal>Исключить одежду, соответствующую критериям</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Показать_одежду,_соответствующую_критериям</IRI>
+        <Literal>Показать одежду, соответствующую критериям</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Шорты_Levi&apos;s_Синий_2300</IRI>
+        <Literal>Шорты Levi&apos;s Синий 2300</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+

@@ -1,0 +1,164 @@
+graph alcohol_map {
+	Алкоголь -- {
+		Крепкий
+		Лёгкий
+	}
+
+	Крепкий -- {
+		Ром
+		Водка
+		Виски
+	}
+
+	Лёгкий -- {
+		Пиво
+		Вино
+		Вермут
+	}
+
+
+
+	Ром -- {
+		Тёмный
+		Золотой
+	}
+
+	Водка -- {
+		Сливовая
+		Яблочная
+		Анисовая
+	}
+
+	Виски -- {
+		Зерновой
+		Солодовый
+	}
+
+
+	Пиво -- {
+		Тёмное
+		Светлое
+	}
+
+	Вино -- {
+		Красное
+		Белое
+	}
+
+	Вермут -- {
+		Горький
+		Розовый
+		Белый
+	}
+
+
+
+
+	// Ром
+	Тёмный -- {
+		"Ron Barcelo, Anejo, 0.7 л"
+		"Bacardi Carta Negra"
+		"Captain Morgan Black Spiced"
+		"Botran 12 Anejo"
+	}
+
+	Золотой -- {
+		"Ron Barcelo Gran Anejo"
+		"Bacardi OakHeart"
+		"Captain Morgan Spiced Gold"
+		"Bacardi Reserva 8 Anos"
+	}
+
+
+	// Водка
+	Сливовая -- {
+		"Кизлярка Сливовая"
+		"Арцах Сливовый"
+		"R. Jelinek, Plum Vodka"
+		"Анасеули Сливовая"
+	}
+
+	Яблочная -- {
+		"Троекуровка Яблочная"
+		"Кизлярка Яблочная"
+		"Самогаръ"
+		"Белая Березка"
+	}
+
+	Анисовая -- {
+		"Kalashnikov"
+		"Isidoros Arvanitis Ouzo Plomari"
+		"Алтай"
+		"Ouzo Romios"
+	}
+
+
+	// Виски
+	Зерновой -- {
+		"Dewar's"
+		"Darby's"
+		"Hedonism"
+		"Fowler's"
+	}
+
+	Солодовый -- {
+		"Macallan"
+		"Laphroaig"
+		"Glenmorangie"
+		"Auchentoshan"
+	}
+
+
+
+
+	// Пиво
+	Тёмное -- {
+		"Guinness"
+		"Westmalle dark"
+		"Weihenstephan"
+		"Leffe"
+	}
+
+	Светлое -- {
+		"Engel"
+		"Westmalle light"
+		"Hofbrau"
+		"Paulaner"
+	}
+
+
+	// Вино
+	Красное -- {
+		"Chateau Les Jouberts"
+		"Marques de Montejos"
+		"Ramirez de la Piscina"
+		"Familia Bastida"
+	}
+
+	Белое -- {
+		"Rio Lilo"
+		"Sander"
+		"Brancott Estate"
+		"Askaneli Brothers"
+	}
+
+
+	// Вермут
+	Горький -- {
+		"Casa Mariol"
+	}
+
+	Розовый -- {
+		"Martini Rosso"
+		"Gancia Rosso"
+		"Cinzano Rosso"
+		"Sacred"
+	}
+
+	Белый -- {
+		"Martini Bianco"
+		"Cinzano Bianco"
+		"Delasy"
+		"Gancia Bianco"
+	}
+}

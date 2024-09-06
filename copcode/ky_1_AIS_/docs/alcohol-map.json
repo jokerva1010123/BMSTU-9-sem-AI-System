@@ -1,0 +1,850 @@
+{
+	"data": {
+		"name": "Alcohol"
+	},
+	"children": [
+		{
+			"data": {
+				"name": "Strong"
+			},
+			"children": [
+				{
+					"data": {
+						"name": "Rum"
+					},
+					"children": [
+						{
+							"data": {
+								"name": "Dark"
+							},
+							"children": [
+								{
+									"data": {
+										"name": "RonBarceloAnejo",
+										"volume": 0.7,
+										"price": 1200,
+										"abv": 40,
+										"age": 3,
+										"country": "Dominicana",
+										"carbonated": false,
+										"mainTaste": "bitter"
+									},
+									"children": []
+								},
+								{
+									"data": {
+										"name": "BacardiCartaNegra",
+										"volume": 0.7,
+										"price": 1260,
+										"abv": 40,
+										"age": 4,
+										"country": "USA",
+										"carbonated": false,
+										"mainTaste": "bitter"
+									},
+									"children": []
+								},
+								{
+									"data": {
+										"name": "CaptainMorganBlackSpiced",
+										"volume": 0.7,
+										"price": 1260,
+										"abv": 40,
+										"age": 3,
+										"country": "UK",
+										"carbonated": false,
+										"mainTaste": "bitter"
+									},
+									"children": []
+								},
+								{
+									"data": {
+										"name": "Botran12Anejo",
+										"volume": 0.7,
+										"price": 3400,
+										"abv": 40,
+										"age": 12,
+										"country": "Guatemala",
+										"carbonated": false,
+										"mainTaste": "bitter"
+									},
+									"children": []
+								}
+							]
+						},
+						{
+							"data": {
+								"name": "Gold"
+							},
+							"children": [
+								{
+									"data": {
+										"name": "RonBarceloGranAnejo",
+										"volume": 0.7,
+										"price": 1500,
+										"abv": 37,
+										"age": 5,
+										"country": "Dominicana",
+										"carbonated": false,
+										"mainTaste": "sweet"
+									},
+									"children": []
+								},
+								{
+									"data": {
+										"name": "BacardiOakHeart",
+										"volume": 0.7,
+										"price": 1250,
+										"abv": 35,
+										"age": 1,
+										"country": "USA",
+										"carbonated": false,
+										"mainTaste": "sweet"
+									},
+									"children": []
+								},
+								{
+									"data": {
+										"name": "CaptainMorganSpicedGold",
+										"volume": 0.7,
+										"price": 1400,
+										"abv": 35,
+										"age": 2,
+										"country": "UK",
+										"carbonated": false,
+										"mainTaste": "sweet"
+									},
+									"children": []
+								},
+								{
+									"data": {
+										"name": "BacardiReserva8Anos",
+										"volume": 0.7,
+										"price": 2500,
+										"abv": 40,
+										"age": 8,
+										"country": "USA",
+										"carbonated": false,
+										"mainTaste": "sweet"
+									},
+									"children": []
+								}
+							]
+						}
+					]
+				},
+				{
+					"data": {
+						"name": "Vodka"
+					},
+					"children": [
+						{
+							"data": {
+								"name": "Plum"
+							},
+							"children": [
+								{
+									"data": {
+										"name": "КизляркаСливовая",
+										"volume": 0.5,
+										"price": 550,
+										"abv": 40,
+										"age": 1,
+										"country": "Russia",
+										"carbonated": false,
+										"mainTaste": "sweet"
+									},
+									"children": []
+								},
+								{
+									"data": {
+										"name": "АрцахСливовый",
+										"volume": 0.75,
+										"price": 2250,
+										"abv": 40,
+										"age": 1,
+										"country": "Armenia",
+										"carbonated": false,
+										"mainTaste": "sweet"
+									},
+									"children": []
+								},
+								{
+									"data": {
+										"name": "PlumVodka",
+										"volume": 0.5,
+										"price": 1100,
+										"abv": 40,
+										"age": 1,
+										"country": "Czech",
+										"carbonated": false,
+										"mainTaste": "sweet"
+									},
+									"children": []
+								},
+								{
+									"data": {
+										"name": "АнасеулиСливовая",
+										"volume": 0.5,
+										"price": 1300,
+										"abv": 40,
+										"age": 1,
+										"country": "Georgia",
+										"carbonated": false,
+										"mainTaste": "sweet"
+									},
+									"children": []
+								}
+							]
+						},
+						{
+							"data": {
+								"name": "Apple"
+							},
+							"children": [
+								{
+									"data": {
+										"name": "ТроекуровкаЯблочная",
+										"volume": 0.5,
+										"price": 550,
+										"abv": 40,
+										"age": 1,
+										"country": "Russia",
+										"carbonated": false,
+										"mainTaste": "sweet"
+									},
+									"children": []
+								},
+								{
+									"data": {
+										"name": "КизляркаЯблочная",
+										"volume": 0.5,
+										"price": 600,
+										"abv": 40,
+										"age": 1,
+										"country": "Russia",
+										"carbonated": false,
+										"mainTaste": "sweet"
+									},
+									"children": []
+								},
+								{
+									"data": {
+										"name": "Самогаръ",
+										"volume": 0.5,
+										"price": 460,
+										"abv": 38,
+										"age": 1,
+										"country": "Russia",
+										"carbonated": false,
+										"mainTaste": "sweet"
+									},
+									"children": []
+								},
+								{
+									"data": {
+										"name": "БелаяБерезка",
+										"volume": 0.5,
+										"price": 660,
+										"abv": 38,
+										"age": 1,
+										"country": "Russia",
+										"carbonated": false,
+										"mainTaste": "sweet"
+									},
+									"children": []
+								}
+							]
+						},
+						{
+							"data": {
+								"name": "Anise"
+							},
+							"children": [
+								{
+									"data": {
+										"name": "Kalashnikov",
+										"volume": 0.5,
+										"price": 320,
+										"abv": 40,
+										"age": 1,
+										"country": "Russia",
+										"carbonated": false,
+										"mainTaste": "bitter"
+									},
+									"children": []
+								},
+								{
+									"data": {
+										"name": "IsidorosArvanitisOuzoPlomari",
+										"volume": 0.5,
+										"price": 870,
+										"abv": 40,
+										"age": 1,
+										"country": "Greece",
+										"carbonated": false,
+										"mainTaste": "bitter"
+									},
+									"children": []
+								},
+								{
+									"data": {
+										"name": "Алтай",
+										"volume": 0.5,
+										"price": 500,
+										"abv": 40,
+										"age": 1,
+										"country": "Russia",
+										"carbonated": false,
+										"mainTaste": "bitter"
+									},
+									"children": []
+								},
+								{
+									"data": {
+										"name": "OuzoRomios",
+										"volume": 0.7,
+										"price": 800,
+										"abv": 38,
+										"age": 1,
+										"country": "Greece",
+										"carbonated": false,
+										"mainTaste": "bitter"
+									},
+									"children": []
+								}
+							]
+						}
+					]
+				},
+				{
+					"data": {
+						"name": "Whiskey"
+					},
+					"children": [
+						{
+							"data": {
+								"name": "Grain"
+							},
+							"children": [
+								{
+									"data": {
+										"name": "Dewars",
+										"volume": 0.5,
+										"price": 2100,
+										"abv": 40,
+										"age": 12,
+										"country": "Scotland",
+										"carbonated": false,
+										"mainTaste": "bitter"
+									},
+									"children": []
+								},
+								{
+									"data": {
+										"name": "Darbys",
+										"volume": 0.75,
+										"price": 3100,
+										"abv": 45,
+										"age": 4,
+										"country": "USA",
+										"carbonated": false,
+										"mainTaste": "bitter"
+									},
+									"children": []
+								},
+								{
+									"data": {
+										"name": "Hedonism",
+										"volume": 0.7,
+										"price": 9800,
+										"abv": 43,
+										"age": 8,
+										"country": "Scotland",
+										"carbonated": false,
+										"mainTaste": "bitter"
+									},
+									"children": []
+								},
+								{
+									"data": {
+										"name": "Fowlers",
+										"volume": 0.5,
+										"price": 500,
+										"abv": 40,
+										"age": 5,
+										"country": "Russia",
+										"carbonated": false,
+										"mainTaste": "bitter"
+									},
+									"children": []
+								}
+							]
+						},
+						{
+							"data": {
+								"name": "Malt"
+							},
+							"children": [
+								{
+									"data": {
+										"name": "Macallan",
+										"volume": 0.7,
+										"price": 4000,
+										"abv": 40,
+										"age": 12,
+										"country": "Scotland",
+										"carbonated": false,
+										"mainTaste": "bitter"
+									},
+									"children": []
+								},
+								{
+									"data": {
+										"name": "Laphroaig",
+										"volume": 0.5,
+										"price": 4500,
+										"abv": 40,
+										"age": 10,
+										"country": "Scotland",
+										"carbonated": false,
+										"mainTaste": "bitter"
+									},
+									"children": []
+								},
+								{
+									"data": {
+										"name": "Glenmorangie",
+										"volume": 0.7,
+										"price": 3200,
+										"abv": 40,
+										"age": 10,
+										"country": "Scotland",
+										"carbonated": false,
+										"mainTaste": "bitter"
+									},
+									"children": []
+								},
+								{
+									"data": {
+										"name": "Auchentoshan",
+										"volume": 0.7,
+										"price": 3000,
+										"abv": 40,
+										"age": 12,
+										"country": "Scotland",
+										"carbonated": false,
+										"mainTaste": "bitter"
+									},
+									"children": []
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"data": {
+				"name": "Light"
+			},
+			"children": [
+				{
+					"data": {
+						"name": "Beer"
+					},
+					"children": [
+						{
+							"data": {
+								"name": "Dark"
+							},
+							"children": [
+								{
+									"data": {
+										"name": "Guinness",
+										"volume": 0.44,
+										"price": 170,
+										"abv": 4,
+										"age": 1,
+										"country": "Ireland",
+										"carbonated": true,
+										"mainTaste": "bitter"
+									},
+									"children": []
+								},
+								{
+									"data": {
+										"name": "WestmalleDark",
+										"volume": 0.33,
+										"price": 250,
+										"abv": 7,
+										"age": 1,
+										"country": "Belgium",
+										"carbonated": true,
+										"mainTaste": "bitter"
+									},
+									"children": []
+								},
+								{
+									"data": {
+										"name": "Weihenstephan",
+										"volume": 0.5,
+										"price": 190,
+										"abv": 5,
+										"age": 1,
+										"country": "Germany",
+										"carbonated": true,
+										"mainTaste": "bitter"
+									},
+									"children": []
+								},
+								{
+									"data": {
+										"name": "Leffe",
+										"volume": 0.75,
+										"price": 330,
+										"abv": 7,
+										"age": 1,
+										"country": "Belgium",
+										"carbonated": true,
+										"mainTaste": "bitter"
+									},
+									"children": []
+								}
+							]
+						},
+						{
+							"data": {
+								"name": "Light"
+							},
+							"children": [
+								{
+									"data": {
+										"name": "Engel",
+										"volume": 0.5,
+										"price": 270,
+										"abv": 5,
+										"age": 1,
+										"country": "Germany",
+										"carbonated": true,
+										"mainTaste": "bitter"
+									},
+									"children": []
+								},
+								{
+									"data": {
+										"name": "WestmalleLight",
+										"volume": 0.33,
+										"price": 320,
+										"abv": 10,
+										"age": 1,
+										"country": "Belgium",
+										"carbonated": true,
+										"mainTaste": "bitter"
+									},
+									"children": []
+								},
+								{
+									"data": {
+										"name": "Hofbrau",
+										"volume": 0.5,
+										"price": 210,
+										"abv": 5,
+										"age": 1,
+										"country": "Germany",
+										"carbonated": true,
+										"mainTaste": "bitter"
+									},
+									"children": []
+								},
+								{
+									"data": {
+										"name": "Paulaner",
+										"volume": 0.5,
+										"price": 130,
+										"abv": 5,
+										"age": 1,
+										"country": "Germany",
+										"carbonated": true,
+										"mainTaste": "bitter"
+									},
+									"children": []
+								}
+							]
+						}
+					]
+				},
+				{
+					"data": {
+						"name": "Wine"
+					},
+					"children": [
+						{
+							"data": {
+								"name": "Red"
+							},
+							"children": [
+								{
+									"data": {
+										"name": "ChateauLesJouberts",
+										"volume": 0.75,
+										"price": 970,
+										"abv": 13,
+										"age": 4,
+										"country": "France",
+										"carbonated": true,
+										"mainTaste": "bitter"
+									},
+									"children": []
+								},
+								{
+									"data": {
+										"name": "MarquesdeMontejos",
+										"volume": 0.75,
+										"price": 1300,
+										"abv": 13,
+										"age": 5,
+										"country": "Spain",
+										"carbonated": true,
+										"mainTaste": "bitter"
+									},
+									"children": []
+								},
+								{
+									"data": {
+										"name": "RamirezdelaPiscina",
+										"volume": 0.75,
+										"price": 1400,
+										"abv": 15,
+										"age": 4,
+										"country": "Spain",
+										"carbonated": true,
+										"mainTaste": "bitter"
+									},
+									"children": []
+								},
+								{
+									"data": {
+										"name": "FamiliaBastida",
+										"volume": 0.75,
+										"price": 900,
+										"abv": 14,
+										"age": 3,
+										"country": "Italy",
+										"carbonated": true,
+										"mainTaste": "bitter"
+									},
+									"children": []
+								}
+							]
+						},
+						{
+							"data": {
+								"name": "White"
+							},
+							"children": [
+								{
+									"data": {
+										"name": "RioLilo",
+										"volume": 0.75,
+										"price": 880,
+										"abv": 12,
+										"age": 1,
+										"country": "Spain",
+										"carbonated": true,
+										"mainTaste": "bitter"
+									},
+									"children": []
+								},
+								{
+									"data": {
+										"name": "Sander",
+										"volume": 0.75,
+										"price": 1450,
+										"abv": 12,
+										"age": 1,
+										"country": "Germany",
+										"carbonated": true,
+										"mainTaste": "bitter"
+									},
+									"children": []
+								},
+								{
+									"data": {
+										"name": "BrancottEstate",
+										"volume": 0.75,
+										"price": 970,
+										"abv": 13,
+										"age": 2,
+										"country": "new Zealand",
+										"carbonated": true,
+										"mainTaste": "bitter"
+									},
+									"children": []
+								},
+								{
+									"data": {
+										"name": "AskaneliBrothers",
+										"volume": 0.75,
+										"price": 750,
+										"abv": 13,
+										"age": 3,
+										"country": "Georgia",
+										"carbonated": true,
+										"mainTaste": "bitter"
+									},
+									"children": []
+								}
+							]
+						}
+					]
+				},
+				{
+					"data": {
+						"name": "Vermouth"
+					},
+					"children": [
+						{
+							"data": {
+								"name": "Dark"
+							},
+							"children": [
+								{
+									"data": {
+										"name": "CasaMariol",
+										"volume": 1,
+										"price": 2300,
+										"abv": 12,
+										"age": 1,
+										"country": "Spain",
+										"carbonated": true,
+										"mainTaste": "bitter"
+									},
+									"children": []
+								}
+							]
+						},
+						{
+							"data": {
+								"name": "Rose"
+							},
+							"children": [
+								{
+									"data": {
+										"name": "MartiniRose",
+										"volume": 1,
+										"price": 1115,
+										"abv": 15,
+										"age": 1,
+										"country": "Italy",
+										"carbonated": true,
+										"mainTaste": "bitter"
+									},
+									"children": []
+								},
+								{
+									"data": {
+										"name": "GanciaRose",
+										"volume": 1,
+										"price": 800,
+										"abv": 16,
+										"age": 1,
+										"country": "Italy",
+										"carbonated": true,
+										"mainTaste": "bitter"
+									},
+									"children": []
+								},
+								{
+									"data": {
+										"name": "CinzanoRose",
+										"volume": 1,
+										"price": 980,
+										"abv": 14,
+										"age": 1,
+										"country": "Italy",
+										"carbonated": true,
+										"mainTaste": "bitter"
+									},
+									"children": []
+								},
+								{
+									"data": {
+										"name": "Sacred",
+										"volume": 0.75,
+										"price": 3550,
+										"abv": 18,
+										"age": 1,
+										"country": "UK",
+										"carbonated": true,
+										"mainTaste": "bitter"
+									},
+									"children": []
+								}
+							]
+						},
+						{
+							"data": {
+								"name": "White"
+							},
+							"children": [
+								{
+									"data": {
+										"name": "MartiniWhite",
+										"volume": 1,
+										"price": 1115,
+										"abv": 15,
+										"age": 1,
+										"country": "Italy",
+										"carbonated": true,
+										"mainTaste": "bitter"
+									},
+									"children": []
+								},
+								{
+									"data": {
+										"name": "CinzanoWhite",
+										"volume": 1,
+										"price": 980,
+										"abv": 15,
+										"age": 1,
+										"country": "Italy",
+										"carbonated": false,
+										"mainTaste": "bitter"
+									},
+									"children": []
+								},
+								{
+									"data": {
+										"name": "Delasy",
+										"volume": 1,
+										"price": 570,
+										"abv": 15,
+										"age": 1,
+										"country": "Russia",
+										"carbonated": true,
+										"mainTaste": "bitter"
+									},
+									"children": []
+								},
+								{
+									"data": {
+										"name": "GanciaWhite",
+										"volume": 1,
+										"price": 760,
+										"abv": 15,
+										"age": 1,
+										"country": "Italy",
+										"carbonated": false,
+										"mainTaste": "bitter"
+									},
+									"children": []
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

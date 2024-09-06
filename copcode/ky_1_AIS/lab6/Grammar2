@@ -1,0 +1,22 @@
+noun — существительное
+verb — глагол
+article — артикль
+adjective — прилагательное
+
+question: Gverb, Gnoun.
+
+Gnoun: verb, Gnoun2.
+Gnoun: Gnoun2.
+
+Gnoun2: article, Gnoun2.
+Gnoun2: noun.
+
+Gverb: verb.
+Gverb: article, Gnoun.
+
+/////////////////////////////////////////////////////////
+
+Предложение 2:
+- Ты ищешь определенное место?
+
+question: Gnoun="Ты ищешь", Gverb="определенное место".
